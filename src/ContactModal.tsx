@@ -1,11 +1,6 @@
 import { X } from 'lucide-react';
 import { useState, FormEvent } from 'react';
-import { createClient } from '@supabase/supabase-js';
-
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-);
+import { supabase } from './lib/supabase';
 
 interface ContactModalProps {
   isOpen: boolean;
