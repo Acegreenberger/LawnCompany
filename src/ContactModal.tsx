@@ -27,6 +27,10 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     setSubmitStatus('idle');
 
     try {
+      if (!supabase) {
+        throw new Error('Database connection not available');
+      }
+
       const { error } = await supabase.from('leads').insert([
         {
           name: formData.name,
