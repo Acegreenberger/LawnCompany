@@ -27,7 +27,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     setSubmitStatus('idle');
 
     try {
-      const { error } = await supabase.from('contact_submissions').insert([
+      const { error } = await supabase.from('leads').insert([
         {
           name: formData.name,
           email: formData.email,
