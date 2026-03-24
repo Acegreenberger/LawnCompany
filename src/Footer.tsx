@@ -17,7 +17,7 @@ export default function Footer() {
             </a>
             <div className="flex items-start gap-3 text-[#4a4a4a]">
               <MapPin className="w-4 h-4 mt-1" />
-              <span>Kerrville, TX<br />Texas Hill Country</span>
+              <span>Kerrville, TX</span>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
         <div>
           <h3 className="text-2xl font-extralight text-[#5a5a5a] mb-6">Service Area</h3>
           <p className="text-[#4a4a4a] leading-relaxed mb-6">
-            Proudly serving Kerrville and the surrounding Texas Hill Country communities with professional lawn care services.
+            Proudly serving Kerrville and the surrounding communities with professional lawn care services.
           </p>
         </div>
       </div>
