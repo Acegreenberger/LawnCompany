@@ -19,7 +19,7 @@ function HomePage() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-start px-8 md:px-16 lg:px-32 py-16 pt-32">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-extralight text-[#5a5a5a] mb-8 leading-tight">
-          Need Lawn Mowing This Spring?
+          Need A Lawn Care Service in Kerrville?
         </h1>
         <p className="text-xl md:text-2xl text-[#4a4a4a] mb-12 max-w-3xl">
           We provide top quality lawn care in the Kerrville and Ingram area.
@@ -50,7 +50,7 @@ function HomePage() {
               Complete Lawn Mowing Bundle
             </h2>
             <p className="text-lg md:text-xl text-[#4a4a4a] mb-12 leading-relaxed">
-              Our lawn bundle includes mowing, weed eating, and cleanup. We're only satisfied if you're satisfied.
+              Our lawn care bundle includes mowing, weed eating, and cleanup. We're only satisfied if you're satisfied.
             </p>
             <button
               onClick={() => setIsContactModalOpen(true)}
