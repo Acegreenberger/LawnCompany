@@ -13,7 +13,7 @@ export default function Footer() {
             </a>
             <a href="mailto:mike@kerrvillelawn.com" className="flex items-center gap-3 text-[#4a4a4a] hover:text-[#2a2a2a] transition-colors">
               <Mail className="w-4 h-4" />
-              <span>mike@kerrvillelawn.com</span>
+              <span>Kerrville Lawn Company</span>
             </a>
             <div className="flex items-start gap-3 text-[#4a4a4a]">
               <MapPin className="w-4 h-4 mt-1" />
